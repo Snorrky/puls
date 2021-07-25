@@ -1,5 +1,4 @@
 @import 'base/_variables.scss';
-@import 'base/media.scss';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -20,5 +19,7 @@ body {
 @import 'blocks/_header.scss';
 @import 'blocks/_buttons.scss';
 @import 'blocks/_titles.scss';
-@import 'blocks/benefits';
+@import 'blocks/_benefits.scss';
 
+
+@import 'base/media.scss';
