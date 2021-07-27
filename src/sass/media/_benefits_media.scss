@@ -1,0 +1,20 @@
+@media all and (max-width: 768px) {
+    .benefits {
+        &__items {
+            flex-direction: column;
+            margin-top: 45px;
+        }
+        &__item {
+            margin: auto;
+            margin-top: 30px;
+            max-width: 90%;
+        }
+        &__subtitle {
+            margin-top: 10px;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+    }
+}
+

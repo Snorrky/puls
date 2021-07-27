@@ -1,0 +1,30 @@
+@media all and (max-width: 768px) {
+    .promo {
+        min-height: 500px;
+        &__wrapper {
+            margin-top: 75px;
+        }
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        &__items {
+            width: 335px;
+        }
+    }
+}
+
+@media all and (max-width: 375px) {
+    .promo {
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__items {
+            width: 315px;
+            justify-content: center;
+        }
+    }
+}

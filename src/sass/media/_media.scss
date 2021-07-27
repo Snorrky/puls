@@ -1,0 +1,10 @@
+@media all and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@import '_header_media.scss';
+@import '_promo_media.scss';
+@import '_benefits_media.scss';
+@import '_consultation_media.scss';
