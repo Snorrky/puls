@@ -1,0 +1,25 @@
+.slider {
+    width: 750px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+
+.owl-carousel {
+
+    .owl-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        button.owl-prev {
+            position: absolute;
+            left: -70px;
+        }
+        
+        button.owl-next {
+            position: absolute;
+            right: -70px;
+        }
+    }
+}
