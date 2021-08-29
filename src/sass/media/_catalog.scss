@@ -1,0 +1,12 @@
+@media all and (max-width: 650px) {
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tab {
+
+            margin-top: 10px;
+        }
+    }
+}

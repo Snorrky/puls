@@ -24,6 +24,12 @@ body {
 @import 'blocks/_consultation.scss';
 @import 'blocks/_forms';
 @import 'blocks/_slider';
-@import 'blocks/catalog';
+@import 'blocks/_catalog';
+@import 'blocks/_feedback';
+@import 'blocks/_map';
+@import 'blocks/_modal';
+
 
 @import 'media/media.scss';
+
+@import 'lib/animate.min.scss';

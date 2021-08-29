@@ -1,0 +1,14 @@
+@media all and (max-width: 550px) {
+    .feedback {
+        &__items {
+            flex-wrap: wrap;
+        }
+        &__desc {
+            text-align: center;
+            margin: 20px 10px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+}
