@@ -39,6 +39,8 @@ $(document).ready(function() {
             $('.overlay, #buy').fadeIn();
         })
     });
+
+    new WOW().init();
 }); 
 
 function toggleItem(link) {
